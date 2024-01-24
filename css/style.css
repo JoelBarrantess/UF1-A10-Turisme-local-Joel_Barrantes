@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+/* SELECTORES DE ELEMENTO */
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center; 
+}
+
+/* FIN DE SELECTORES DE ELEMENTO */
+
+/* SELECTORES CLASES */
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+
+.column-lados {
+    width: 25%;
+    float: left;
+    max-width: 25%;
+    margin: 0 auto; 
+}
+.column-mid {
+    width: 50%;
+    float: left;
+}
+
+.carousel-item img {
+    height: 500px; 
+    object-fit: cover;
+}
+
+.noticia {
+    width: fit-content;
+}
+
+/* FIN SELECTORES CLASES */
+
+/* SELECTORES DE ID */
+
+#imagen-logo-madrid {
+    padding-top: 8px;
+}
+
+#imagen-f1-madrid {
+    width: fit-content;
+    height: 70vh;
+}
+
+/* FIN SELECTORES DE ID */
+
+/* row:after */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
